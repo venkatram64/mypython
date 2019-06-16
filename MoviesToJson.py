@@ -8,6 +8,8 @@ import re
 #http://localhost:9200/_bulk
 #postman
 
+#http://media.sundog-soft.com/es/access_log
+
 
 csvfile = open('movies.csv', 'r', encoding='utf8', errors='ignore')
 
