@@ -4,12 +4,34 @@ import re
 #http://media.sundog-soft.com/es/MoviesToJson.py
 #python MoviesToJson.py > movies.json
 
+#https://www.elastic.co/downloads/past-releases/logstash-6-2-3
 
 #http://localhost:9200/_bulk
 #postman
 
 #http://media.sundog-soft.com/es/access_log
+#https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs
 
+#elasticsearch-plugin install ingest-user-agent
+#elasticsearch-plugin install ingest-geoip
+#elasticsearch-plugin install x-pack
+#xpack.security.enabled:false  => elasticsearch.yml
+
+#kibana-plugin.bat install x-pack
+#user: elastic
+#password:changeme
+
+#document
+#https://www.elastic.co/products/elasticsearch
+#https://www.elastic.co/learn
+
+#https://raw.githubusercontent.com/elastic/examples/master/Machine%20Learning/Business%20Metrics%20Recipes/twitter_trends/data/tweets.csv
+#https://github.com/elastic/examples/tree/master/Machine%20Learning
+
+#logstash-6.2.3\bin>logstash.bat -f ..\..\logData\earthquake_logstash.conf
+
+#https://help.pentaho.com/Documentation/6.1/0R0/0V0/010/000
+#https://help.pentaho.com/Documentation/8.2/Developer_Center/PDI/Extend/000
 
 csvfile = open('movies.csv', 'r', encoding='utf8', errors='ignore')
 
