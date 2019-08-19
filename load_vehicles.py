@@ -19,7 +19,8 @@ def commit_bulk():
 
 def add_car(car):
     global commands
-    command_row = {"index": {"_index": "cars"}}
+    #command_row = {"index": {"_index": "cars"}}
+    command_row = {"index": {"_index": "cars","_type": "car"}}
     commands.append(json.dumps(command_row))
     commands.append(json.dumps(car))
     if len(commands) > 1000: #Bulk load sizes  of 500, doubled because of command row.
